@@ -1,32 +1,25 @@
-# 🚀 HireCraft
+# 🚀 RecruitKit
 
-> AI-powered HR Toolkit for Developers
+> **The Open Source Toolkit for Modern Recruiting**
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+RecruitKit is an open-source TypeScript toolkit for building modern recruitment applications.
 
-HireCraft is an open-source TypeScript toolkit for building AI-powered recruitment and HR applications.
-
-Whether you're building a hiring platform, ATS, resume parser, AI recruiter, or candidate scoring system, HireCraft provides reusable modules to accelerate development.
+Whether you're building an ATS, AI Recruiter, Resume Parser, Candidate Scoring Engine, or Recruitment Automation Platform, RecruitKit provides reusable building blocks to accelerate development.
 
 ---
 
-## ✨ Features
+## ✨ Vision
 
-- 📄 AI Resume Processing
-- 🎯 Candidate Scoring
-- 🔍 Talent Sourcing
-- 🛡️ Compliance Utilities
-- ⚙️ Pipeline Management
-- 🧩 TypeScript First
-- 🚀 Modular Architecture
+RecruitKit aims to become the developer toolkit for recruitment technology.
+
+Instead of reinventing recruitment workflows, developers can import production-ready modules for sourcing, screening, scoring, interview intelligence, compliance, and AI-powered hiring.
 
 ---
 
 ## 📦 Installation
 
 ```bash
-npm install hirecraft
+npm install recruitkit
 ```
 
 ---
@@ -34,20 +27,20 @@ npm install hirecraft
 ## 🚀 Quick Start
 
 ```typescript
-import { helloHireCraft } from "hirecraft";
+import { helloHireCraft } from "recruitkit";
 
 console.log(helloHireCraft());
 ```
 
-Output:
+Output
 
 ```text
-🚀 Welcome to HireCraft!
+🚀 Welcome to RecruitKit!
 ```
 
 ---
 
-## 📁 Project Structure
+# Current Modules
 
 ```
 src/
@@ -63,41 +56,59 @@ src/
 
 ---
 
-## 🛣️ Roadmap
+# Roadmap
+
+## v0.2
 
 - Resume Parser
-- AI Candidate Ranking
-- Job Description Analyzer
-- ATS Integrations
-- LinkedIn Candidate Search
-- Email Automation
-- Interview Scheduling
-- Recruiter AI Agent
+- ATS Score Calculator
+- Boolean Search Builder
+- Candidate Ranking
+
+## v0.3
+
+- AI Resume Screening
+- AI Interview Questions
+- Job Description Generator
+
+## v0.4
+
+- LinkedIn Profile Parser
+- Candidate Comparison
+- Hiring Analytics
+
+## v1.0
+
+- Complete AI Recruitment SDK
 
 ---
 
-## 🤝 Contributing
+## Why RecruitKit?
+
+RecruitKit is built by combining real-world recruitment experience with modern AI and developer tooling.
+
+The goal is to bridge the gap between recruiters and engineers by making recruitment technology easier to build.
+
+---
+
+## Contributing
 
 Contributions are welcome!
 
-Feel free to fork the repository, create a feature branch, and submit a Pull Request.
+Fork the repository, create a feature branch, and submit a Pull Request.
 
 ---
 
-## 📄 License
+## License
 
-MIT License
+MIT
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Mohammed Ashraf**
 
-Project Onboarding Specialist • AI & HR Technology
+HR • AI • Open Source
 
-GitHub:
-https://github.com/Ashraf-oraczen
-
-LinkedIn:
-https://www.linkedin.com/in/mohammedashraf/
+Building AI tools for modern recruiting.
