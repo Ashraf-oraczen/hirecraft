@@ -1,7 +1,7 @@
 {
-  "name": "hirecraft",
+  "name": "recruitkit",
   "version": "0.1.0",
-  "description": "AI Hiring Intelligence SDK",
+  "description": "The Open Source Toolkit for Modern Recruiting",
   "author": "Mohammed Ashraf",
   "license": "MIT",
   "type": "module",
@@ -10,6 +10,20 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "ai",
+    "recruitment",
+    "hr",
+    "typescript",
+    "sdk",
+    "hiring",
+    "llm",
+    "resume"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ashraf-oraczen/hirecraft.git"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
