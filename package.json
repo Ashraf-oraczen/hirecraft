@@ -1,37 +1,16 @@
 {
   "name": "recruitkit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The Open Source Toolkit for Modern Recruiting",
-  "author": "Mohammed Ashraf",
-  "license": "MIT",
-  "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "ai",
-    "recruitment",
-    "hr",
-    "typescript",
-    "sdk",
-    "hiring",
-    "llm",
-    "resume"
-  ],
+
+  "homepage": "https://github.com/Ashraf-oraczen/recruitkit#readme",
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ashraf-oraczen/hirecraft.git"
+    "url": "git+https://github.com/Ashraf-oraczen/recruitkit.git"
   },
-  "scripts": {
-    "build": "tsc",
-    "dev": "tsx src/index.ts",
-    "start": "tsx src/index.ts"
-  },
-  "devDependencies": {
-    "@types/node": "^24.0.0",
-    "tsx": "^4.0.0",
-    "typescript": "^5.0.0"
+
+  "bugs": {
+    "url": "https://github.com/Ashraf-oraczen/recruitkit/issues"
   }
 }
