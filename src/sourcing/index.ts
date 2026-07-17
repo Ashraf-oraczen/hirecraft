@@ -1,3 +1,3 @@
-export function helloHireCraft() {
-  return "🚀 Welcome to HireCraft!";
+export function helloRecruitKit() {
+  return "🚀 Welcome to RecruitKit!";
 }
