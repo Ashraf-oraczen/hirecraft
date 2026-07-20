@@ -1,0 +1,14 @@
+import { buildRubric } from "./_helpers";
+
+export const qaEngineerRubric = buildRubric("qa-engineer", "QA Engineer", "mid", ["test-strategy", "automation", "quality-advocacy"], [
+  { name: "Test strategy & planning", weight: 25, description: "Designs test approaches proportional to risk. Knows what to automate vs manual test.",
+    scoringGuide: { 1: "Tests randomly with no plan.", 2: "Follows existing test plans.", 3: "Creates risk-based test plans. Understands test pyramid. Prioritizes test coverage by business impact.", 4: "Designs test strategies for complex multi-service systems. Shift-left advocacy.", 5: "Defines org-wide quality strategy. Balances speed-to-ship with quality gates." } },
+  { name: "Automation skills", weight: 25, description: "Playwright/Cypress/Selenium, API testing, CI integration, test data management.",
+    scoringGuide: { 1: "No automation experience.", 2: "Records and replays scripts.", 3: "Writes maintainable page-object-model tests. API + UI automation. CI-integrated.", 4: "Builds test frameworks from scratch. Parallel execution, custom reporters, visual regression.", 5: "Designs automation architecture used by multiple teams. Contract testing, performance testing." } },
+  { name: "Bug investigation", weight: 20, description: "Reproduces issues, isolates root causes, writes actionable bug reports.",
+    scoringGuide: { 1: "Reports 'it doesn't work' with no reproduction steps.", 2: "Provides basic steps to reproduce.", 3: "Isolates browser/device/data conditions. Checks logs. Provides root cause hypotheses.", 4: "Uses network tools, database queries, and log analysis to diagnose complex issues.", 5: "Identifies systemic quality issues from bug patterns. Prevents bug classes, not just individual bugs." } },
+  { name: "Domain & product understanding", weight: 15, description: "Understands the product deeply enough to find edge cases that others miss.",
+    scoringGuide: { 1: "Tests only happy paths.", 2: "Tests documented scenarios.", 3: "Identifies edge cases from user behavior patterns. Tests negative scenarios and boundary conditions.", 4: "Finds bugs from business logic inconsistencies. Understands regulatory implications of defects.", 5: "Product expert who shapes requirements. Prevents bugs at the spec stage." } },
+  { name: "Communication & advocacy", weight: 15, description: "Communicates quality status clearly. Advocates for quality without blocking velocity.",
+    scoringGuide: { 1: "Quality gatekeeper who blocks releases without clear criteria.", 2: "Reports test results but doesn't contextualize risk.", 3: "Clear quality dashboards. Risk-based release recommendations. Constructive PR reviews.", 4: "Trusted partner to engineering and product. Balances quality bar with business urgency.", 5: "Builds quality culture. Engineers proactively consult them on testability." } },
+]);

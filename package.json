@@ -1,13 +1,51 @@
 {
   "name": "recruitkit",
-  "version": "0.1.3",
-  "description": "The Open Source Toolkit for Modern Recruiting",
-  "homepage": "https://github.com/Ashraf-oraczen/recruitkit#readme",
+  "version": "0.2.0",
+  "description": "AI-powered recruitment toolkit — practitioner-grade hiring intelligence as code. Built-in rubrics, boolean sourcing, resume screening, and candidate comparison powered by Claude.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "example": "npx ts-node examples/full-pipeline.ts"
+  },
+  "keywords": [
+    "hr",
+    "recruitment",
+    "hiring",
+    "ats",
+    "applicant-tracking",
+    "resume-screening",
+    "interview",
+    "rubric",
+    "sourcing",
+    "boolean-search",
+    "claude",
+    "ai",
+    "india",
+    "compliance"
+  ],
+  "author": "Ashraf",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ashraf-oraczen/recruitkit.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Ashraf-oraczen/recruitkit/issues"
+    "url": "https://github.com/Ashraf-oraczen/recruitkit"
   }
 }
+
